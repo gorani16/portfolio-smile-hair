@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ProjectSmileHair</string>
+    <string name="home_top_icon">홈 아이콘</string>
+    <string name="bt_nav_title_home">홈</string>
+    <string name="bt_nav_title_reservation">예약</string>
+    <string name="bt_nav_title_board">게시판</string>
+    <string name="bt_nav_title_mypage">내 정보</string>
 </resources>
