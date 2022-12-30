@@ -8,4 +8,5 @@ plugins {
 ext {
     lifecycleVersion = '2.5.1'
     navVersion = '2.3.5'
+    glideVersion = '4.12.0'
 }
