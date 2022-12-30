@@ -5,4 +5,5 @@
     <string name="bt_nav_title_reservation">예약</string>
     <string name="bt_nav_title_board">게시판</string>
     <string name="bt_nav_title_mypage">내 정보</string>
+    <string name="item_home_banner_iv_description">홈 탑 배너</string>
 </resources>
