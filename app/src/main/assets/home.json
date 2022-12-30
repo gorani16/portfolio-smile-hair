@@ -1,0 +1,24 @@
+{
+  "title": {
+    "icon_url": "https://user-images.githubusercontent.com/73558353/190216399-1f59ac7f-0033-4220-a9e9-cf22af452c7b.png",
+    "text": "안녕하세요!\n고라니님!"
+  },
+  "top_banners": [
+    {
+      "background_image_url": "https://user-images.githubusercontent.com/73558353/190216304-bc920631-14ad-4ccd-bc55-2ffcf2bda116.png",
+      "banner_id": "banner-1"
+    },
+    {
+      "background_image_url": "https://user-images.githubusercontent.com/73558353/190216322-b1120213-87d8-4709-917b-3c7923f37522.png",
+      "banner_id": "banner-2"
+    },
+    {
+      "background_image_url": "https://user-images.githubusercontent.com/73558353/190216338-d2c0197b-a7c5-4844-8fae-05d3834c0d68.png",
+      "banner_id": "banner-3"
+    },
+    {
+      "background_image_url": "https://user-images.githubusercontent.com/73558353/190216358-568208d0-e79c-42ea-a612-a2980f541fab.png",
+      "banner_id": "banner-4"
+    }
+  ]
+}
