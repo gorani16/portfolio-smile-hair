@@ -45,7 +45,8 @@
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -63,11 +64,12 @@
                 android:id="@+id/viewpager_home_banner_indicator"
                 android:layout_width="0dp"
                 android:layout_height="45dp"
-                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/viewpager_home_banner"
-
-                />
+                app:tabBackground="@drawable/selector_viewpager_indicator"
+                app:tabGravity="center"
+                app:tabIndicatorHeight="0dp" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

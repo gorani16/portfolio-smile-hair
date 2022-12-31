@@ -10,6 +10,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
+import com.google.android.material.tabs.TabLayoutMediator
 import com.google.gson.Gson
 import org.json.JSONObject
 
@@ -48,6 +49,10 @@ class HomeFragment: Fragment() {
             viewpager.adapter = HomeBannerAdapter().apply {
                 submitList(homeData.topBanners)
             }
+
+            TabLayoutMediator(viewpagerIndicator, viewpager) { tab, position ->
+
+            }.attach()
         }
 
     }
