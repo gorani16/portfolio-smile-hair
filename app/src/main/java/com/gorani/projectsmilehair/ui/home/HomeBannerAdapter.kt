@@ -10,28 +10,27 @@ import androidx.recyclerview.widget.RecyclerView
 import com.gorani.projectsmilehair.model.Banner
 import com.gorani.projectsmilehair.GlideApp
 import com.gorani.projectsmilehair.R
+import com.gorani.projectsmilehair.databinding.ItemHomeBannerBinding
 
 class HomeBannerAdapter: ListAdapter<Banner, HomeBannerAdapter.HomeBannerViewHolder>(
     BannerDiffCallback()
 ) {
+    private lateinit var binding: ItemHomeBannerBinding
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HomeBannerViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_home_banner, parent, false)
-        return HomeBannerViewHolder(view)
+        binding = ItemHomeBannerBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        return HomeBannerViewHolder(binding)
     }
 
     override fun onBindViewHolder(holder: HomeBannerViewHolder, position: Int) {
         holder.bind(getItem(position))
     }
 
-    class HomeBannerViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-
-        private val bannerImageView = view.findViewById<ImageView>(R.id.iv_banner_image)
+    class HomeBannerViewHolder(private val binding: ItemHomeBannerBinding) : RecyclerView.ViewHolder(binding.root) {
 
         fun bind(banner: Banner) {
-            GlideApp.with(itemView)
-                .load(banner.backgroundImageUrl)
-                .into(bannerImageView)
+            binding.banner = banner
+            binding.executePendingBindings()
         }
     }
 }
@@ -44,5 +43,4 @@ class BannerDiffCallback : DiffUtil.ItemCallback<Banner>() {
     override fun areContentsTheSame(oldItem: Banner, newItem: Banner): Boolean {
         return oldItem == newItem
     }
-
 }
