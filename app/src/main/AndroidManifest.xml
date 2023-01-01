@@ -16,7 +16,7 @@
         android:theme="@style/Theme.ProjectSmileHair"
         tools:targetApi="31">
         <activity
-            android:name=".SplashActivity"
+            android:name=".ui.SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.ProjectSmileHair.Splash">
             <intent-filter>
@@ -30,7 +30,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="false" />
 
     </application>

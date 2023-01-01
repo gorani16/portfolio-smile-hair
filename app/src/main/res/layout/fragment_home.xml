@@ -71,6 +71,27 @@
                 app:tabGravity="center"
                 app:tabIndicatorHeight="0dp" />
 
+            <View
+                android:id="@+id/view_divider"
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="14dp"
+                android:background="@color/divider_gray"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/viewpager_home_banner" />
+
+            <TextView
+                android:id="@+id/tv_home_style_tab_title"
+                style="@style/TextTitle24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="스 타 일"
+                app:layout_constraintStart_toStartOf="@+id/view_divider"
+                app:layout_constraintTop_toBottomOf="@id/view_divider" />
+
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

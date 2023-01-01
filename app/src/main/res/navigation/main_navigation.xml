@@ -6,18 +6,18 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.gorani.projectsmilehair.HomeFragment"
+        android:name="com.gorani.projectsmilehair.ui.home.HomeFragment"
         android:label="HomeFragment" />
     <fragment
         android:id="@+id/navigation_reservation"
-        android:name="com.gorani.projectsmilehair.ReservationFragment"
+        android:name="com.gorani.projectsmilehair.ui.ReservationFragment"
         android:label="ReservationFragment" />
     <fragment
         android:id="@+id/navigation_board"
-        android:name="com.gorani.projectsmilehair.BoardFragment"
+        android:name="com.gorani.projectsmilehair.ui.BoardFragment"
         android:label="BoardFragment" />
     <fragment
         android:id="@+id/navigation_mypage"
-        android:name="com.gorani.projectsmilehair.MyPageFragment"
+        android:name="com.gorani.projectsmilehair.ui.MyPageFragment"
         android:label="MyPageFragment" />
 </navigation>

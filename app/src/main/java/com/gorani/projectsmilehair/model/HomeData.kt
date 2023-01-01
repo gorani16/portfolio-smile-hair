@@ -1,4 +1,4 @@
-package com.gorani.projectsmilehair
+package com.gorani.projectsmilehair.model
 
 import com.google.gson.annotations.SerializedName
 

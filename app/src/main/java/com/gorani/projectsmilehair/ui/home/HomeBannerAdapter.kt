@@ -1,4 +1,4 @@
-package com.gorani.projectsmilehair
+package com.gorani.projectsmilehair.ui.home
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,8 +7,13 @@ import android.widget.ImageView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.gorani.projectsmilehair.model.Banner
+import com.gorani.projectsmilehair.GlideApp
+import com.gorani.projectsmilehair.R
 
-class HomeBannerAdapter: ListAdapter<Banner, HomeBannerAdapter.HomeBannerViewHolder>(BannerDiffCallback()) {
+class HomeBannerAdapter: ListAdapter<Banner, HomeBannerAdapter.HomeBannerViewHolder>(
+    BannerDiffCallback()
+) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HomeBannerViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_home_banner, parent, false)
