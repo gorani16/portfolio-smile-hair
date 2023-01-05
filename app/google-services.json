@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "770736323539",
+    "project_id": "smile-cb8a2",
+    "storage_bucket": "smile-cb8a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770736323539:android:2101081ccf76446b4a8d26",
+        "android_client_info": {
+          "package_name": "com.gorani.projectsmilehair"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770736323539-32n2jsa7m8unq7enlvir6fmig1cj1eeu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs3Ixfscgy1698WHJFa2fFwwlZeeMfTC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770736323539-32n2jsa7m8unq7enlvir6fmig1cj1eeu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

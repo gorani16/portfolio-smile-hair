@@ -20,5 +20,37 @@
       "background_image_url": "https://user-images.githubusercontent.com/73558353/190216358-568208d0-e79c-42ea-a612-a2980f541fab.png",
       "banner_id": "banner-4"
     }
+  ],
+  "style_categories": [
+    {
+      "category_id": "female-cut",
+      "label": "여성 커트",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/73558353/210766949-3f396b63-53c5-448e-afe5-7460015a4b6e.jpg"
+    },
+    {
+      "category_id": "female-perm",
+      "label": "여성 펌",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/73558353/210768105-6d1c9f52-d928-4461-8183-864a9ebcbc95.jpg"
+    },
+    {
+      "category_id": "female-dyeing",
+      "label": "여성 염색",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/73558353/210767411-20fc9d3d-8727-4174-919e-7c796938f731.jpg"
+    },
+    {
+      "category_id": "male-cut",
+      "label": "남성 커트",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/73558353/210769076-dec272b0-e99f-4414-9219-e11b48fc1de1.jpg"
+    },
+    {
+      "category_id": "male-perm",
+      "label": "남성 펌",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/73558353/210769125-4d3edaae-200d-4246-800a-2e91f53b6b68.jpg"
+    },
+    {
+      "category_id": "male-dyeing",
+      "label": "남성 염색",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/73558353/210769102-447fa848-cac1-4396-a49e-ef3b0377bca5.jpg"
+    }
   ]
 }
