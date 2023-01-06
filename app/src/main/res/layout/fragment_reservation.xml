@@ -5,7 +5,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        style="@style/TextTitle24"
+        style="@style/TextBoldBlack.Text24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="예약 프래그먼트"

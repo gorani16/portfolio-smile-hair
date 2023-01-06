@@ -5,7 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.gorani.projectsmilehair.model.Banner
 import com.gorani.projectsmilehair.model.Title
-import com.gorani.projectsmilehair.repository.HomeRepository
+import com.gorani.projectsmilehair.repository.home.HomeRepository
 
 class HomeViewModel(private val homeRepository: HomeRepository) : ViewModel() {
 

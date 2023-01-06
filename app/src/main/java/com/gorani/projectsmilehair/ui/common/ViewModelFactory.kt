@@ -5,7 +5,10 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.gorani.projectsmilehair.AssetLoader
 import com.gorani.projectsmilehair.network.ApiClient
-import com.gorani.projectsmilehair.repository.*
+import com.gorani.projectsmilehair.repository.home.HomeAssetDataSource
+import com.gorani.projectsmilehair.repository.home.HomeRepository
+import com.gorani.projectsmilehair.repository.style_category.StyleCategoryRemoteDataSource
+import com.gorani.projectsmilehair.repository.style_category.StyleCategoryRepository
 import com.gorani.projectsmilehair.ui.home.HomeViewModel
 import com.gorani.projectsmilehair.ui.style_category.StyleCategoryViewModel
 

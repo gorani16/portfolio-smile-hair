@@ -1,8 +1,6 @@
-package com.gorani.projectsmilehair.repository
+package com.gorani.projectsmilehair.repository.style_category
 
 import com.gorani.projectsmilehair.model.StyleCategory
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.withContext
 
 class StyleCategoryRepository(
     private val remoteDataSource: StyleCategoryRemoteDataSource

@@ -38,7 +38,7 @@
 
                 <TextView
                     android:id="@+id/toolbar_home_title"
-                    style="@style/TextTitle24"
+                    style="@style/TextBoldBlack.Text24"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="end"
@@ -97,7 +97,7 @@
 
                 <TextView
                     android:id="@+id/tv_home_style_tab_title"
-                    style="@style/TextTitle24"
+                    style="@style/TextBoldBlack.Text24"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"

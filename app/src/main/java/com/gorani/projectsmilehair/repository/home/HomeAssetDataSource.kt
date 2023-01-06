@@ -1,4 +1,4 @@
-package com.gorani.projectsmilehair.repository
+package com.gorani.projectsmilehair.repository.home
 
 import com.google.gson.Gson
 import com.gorani.projectsmilehair.AssetLoader

@@ -5,7 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.gorani.projectsmilehair.model.StyleCategory
-import com.gorani.projectsmilehair.repository.StyleCategoryRepository
+import com.gorani.projectsmilehair.repository.style_category.StyleCategoryRepository
 import kotlinx.coroutines.launch
 
 class StyleCategoryViewModel(

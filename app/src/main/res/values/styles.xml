@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="TextTitle24">
-        <item name="android:textSize">24sp</item>
+
+    <!-- ImageView Style -->
+    <style name="Circle">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- Text Style -->
+    <style name="TextBoldBlack">
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextBoldBlack.Text12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextBoldBlack.Text24">
+        <item name="android:textSize">24sp</item>
     </style>
 
 </resources>

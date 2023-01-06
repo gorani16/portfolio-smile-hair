@@ -1,4 +1,4 @@
-package com.gorani.projectsmilehair.repository
+package com.gorani.projectsmilehair.repository.home
 
 import com.gorani.projectsmilehair.model.HomeData
 
