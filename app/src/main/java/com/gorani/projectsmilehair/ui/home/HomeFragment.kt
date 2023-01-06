@@ -1,6 +1,7 @@
 package com.gorani.projectsmilehair.ui.home
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -14,10 +15,12 @@ import com.google.android.material.tabs.TabLayoutMediator
 import com.gorani.projectsmilehair.*
 import com.gorani.projectsmilehair.databinding.FragmentHomeBinding
 import com.gorani.projectsmilehair.ui.common.ViewModelFactory
+import com.gorani.projectsmilehair.ui.style_category.StyleCategoryViewModel
 
 class HomeFragment: Fragment() {
 
     private val viewModel: HomeViewModel by viewModels { ViewModelFactory(requireContext()) }
+    private val styleCategoryViewModel: StyleCategoryViewModel by viewModels { ViewModelFactory(requireContext()) }
     private lateinit var binding: FragmentHomeBinding
 
     override fun onCreateView(
@@ -35,6 +38,10 @@ class HomeFragment: Fragment() {
         binding.lifecycleOwner = viewLifecycleOwner
         setToolbar()
         setTopBanners()
+
+        styleCategoryViewModel.items.observe(viewLifecycleOwner) {
+            Log.d("StyleCategory!", "items=$it")
+        }
     }
 
     private fun setToolbar() {
