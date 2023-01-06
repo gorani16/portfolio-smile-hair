@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
         <variable
             name="title"
             type="com.gorani.projectsmilehair.model.Title" />
@@ -58,6 +57,7 @@
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:fillViewport="true"
             app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -105,6 +105,19 @@
                     app:layout_constraintStart_toStartOf="@+id/view_divider"
                     app:layout_constraintTop_toBottomOf="@id/view_divider" />
 
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_style_category_list"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
+                    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_home_style_tab_title"
+                    app:spanCount="3"
+                    tools:listitem="@layout/item_style_category" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

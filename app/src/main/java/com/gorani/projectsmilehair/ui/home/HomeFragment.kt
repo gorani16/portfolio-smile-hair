@@ -15,6 +15,7 @@ import com.google.android.material.tabs.TabLayoutMediator
 import com.gorani.projectsmilehair.*
 import com.gorani.projectsmilehair.databinding.FragmentHomeBinding
 import com.gorani.projectsmilehair.ui.common.ViewModelFactory
+import com.gorani.projectsmilehair.ui.style_category.StyleCategoryAdapter
 import com.gorani.projectsmilehair.ui.style_category.StyleCategoryViewModel
 
 class HomeFragment: Fragment() {
@@ -35,12 +36,14 @@ class HomeFragment: Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        val styleCategoryAdapter = StyleCategoryAdapter()
+        binding.rvStyleCategoryList.adapter = styleCategoryAdapter
         binding.lifecycleOwner = viewLifecycleOwner
         setToolbar()
         setTopBanners()
 
         styleCategoryViewModel.items.observe(viewLifecycleOwner) {
-            Log.d("StyleCategory!", "items=$it")
+            styleCategoryAdapter.submitList(it)
         }
     }
 
