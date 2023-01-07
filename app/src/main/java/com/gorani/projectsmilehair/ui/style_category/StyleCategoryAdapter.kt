@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.gorani.projectsmilehair.databinding.ItemStyleCategoryBinding
 import com.gorani.projectsmilehair.model.StyleCategory
 
-class StyleCategoryAdapter: ListAdapter<StyleCategory, StyleCategoryAdapter.StyleCategoryViewHolder>(StyleCategoryDiffCallback()) {
+class StyleCategoryAdapter(private val viewModel: StyleCategoryViewModel): ListAdapter<StyleCategory, StyleCategoryAdapter.StyleCategoryViewHolder>(StyleCategoryDiffCallback()) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StyleCategoryViewHolder {
         val binding = ItemStyleCategoryBinding.inflate(LayoutInflater.from(parent.context), parent, false)
@@ -19,9 +19,10 @@ class StyleCategoryAdapter: ListAdapter<StyleCategory, StyleCategoryAdapter.Styl
         holder.bind(getItem(position))
     }
 
-    class StyleCategoryViewHolder(private val binding : ItemStyleCategoryBinding): RecyclerView.ViewHolder(binding.root) {
+    inner class StyleCategoryViewHolder(private val binding : ItemStyleCategoryBinding): RecyclerView.ViewHolder(binding.root) {
 
         fun bind(styleCategory: StyleCategory) {
+            binding.viewModel = viewModel
             binding.styleCategory = styleCategory
             binding.executePendingBindings()
         }

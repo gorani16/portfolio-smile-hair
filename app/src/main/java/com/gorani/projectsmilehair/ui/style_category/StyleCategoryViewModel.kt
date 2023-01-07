@@ -6,6 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.gorani.projectsmilehair.model.StyleCategory
 import com.gorani.projectsmilehair.repository.style_category.StyleCategoryRepository
+import com.gorani.projectsmilehair.ui.common.Event
 import kotlinx.coroutines.launch
 
 class StyleCategoryViewModel(
@@ -15,8 +16,15 @@ class StyleCategoryViewModel(
     private val _items = MutableLiveData<List<StyleCategory>>()
     val items: LiveData<List<StyleCategory>> = _items
 
+    private val _openStyleCategoryEvent = MutableLiveData<Event<StyleCategory>>()
+    val openStyleCategoryEvent: LiveData<Event<StyleCategory>> = _openStyleCategoryEvent
+
     init {
         loadStyleCategory()
+    }
+
+    fun openRecommendedStyle(styleCategory: StyleCategory) {
+        _openStyleCategoryEvent.value = Event(styleCategory)
     }
 
     private fun loadStyleCategory() {

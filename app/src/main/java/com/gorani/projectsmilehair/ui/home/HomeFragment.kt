@@ -7,13 +7,20 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.lifecycle.Observer
+import androidx.navigation.fragment.findNavController
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import com.gorani.projectsmilehair.*
+import com.gorani.projectsmilehair.common.KEY_STYLE_CATEGORY_ID
+import com.gorani.projectsmilehair.common.KEY_STYLE_CATEGORY_LABEL
 import com.gorani.projectsmilehair.databinding.FragmentHomeBinding
+import com.gorani.projectsmilehair.model.StyleCategory
+import com.gorani.projectsmilehair.ui.common.EventObserver
 import com.gorani.projectsmilehair.ui.common.ViewModelFactory
 import com.gorani.projectsmilehair.ui.style_category.StyleCategoryAdapter
 import com.gorani.projectsmilehair.ui.style_category.StyleCategoryViewModel
@@ -36,7 +43,7 @@ class HomeFragment: Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val styleCategoryAdapter = StyleCategoryAdapter()
+        val styleCategoryAdapter = StyleCategoryAdapter(styleCategoryViewModel)
         binding.rvStyleCategoryList.adapter = styleCategoryAdapter
         binding.lifecycleOwner = viewLifecycleOwner
         setToolbar()
@@ -45,6 +52,17 @@ class HomeFragment: Fragment() {
         styleCategoryViewModel.items.observe(viewLifecycleOwner) {
             styleCategoryAdapter.submitList(it)
         }
+
+        styleCategoryViewModel.openStyleCategoryEvent.observe(viewLifecycleOwner, EventObserver {
+            openRecommendedStyle(it.categoryId, it.label)
+        })
+    }
+
+    private fun openRecommendedStyle(categoryId: String, categoryLabel: String) {
+        findNavController().navigate(R.id.action_home_to_recommended_style, bundleOf(
+            KEY_STYLE_CATEGORY_ID to categoryId,
+            KEY_STYLE_CATEGORY_LABEL to categoryLabel
+        ))
     }
 
     private fun setToolbar() {
