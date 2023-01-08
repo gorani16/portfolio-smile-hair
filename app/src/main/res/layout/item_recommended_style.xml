@@ -16,6 +16,8 @@
         android:layout_height="250dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         app:cardCornerRadius="12dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -37,7 +39,7 @@
 
             <TextView
                 android:id="@+id/tv_recommended_style_name"
-                style="@style/TextBoldBlack.Text22"
+                style="@style/TextBoldBlack.Text20"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:gravity="center"

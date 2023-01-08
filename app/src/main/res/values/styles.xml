@@ -11,6 +11,12 @@
         <item name="android:textColor">@color/black</item>
     </style>
 
+    <style name="TextBlack.Text14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Text Bold Style -->
+
     <style name="TextBoldBlack">
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/black</item>
@@ -20,12 +26,20 @@
         <item name="android:textSize">12sp</item>
     </style>
 
-    <style name="TextBlack.Text14">
+    <style name="TextBoldBlack.Text14">
         <item name="android:textSize">14sp</item>
     </style>
 
-    <style name="TextBoldBlack.Text14">
-        <item name="android:textSize">14sp</item>
+    <style name="TextBoldBlack.Text16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextBoldBlack.Text18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextBoldBlack.Text20">
+        <item name="android:textSize">20sp</item>
     </style>
 
     <style name="TextBoldBlack.Text22">
