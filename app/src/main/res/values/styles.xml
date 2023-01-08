@@ -7,6 +7,10 @@
     </style>
 
     <!-- Text Style -->
+    <style name="TextBlack">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
     <style name="TextBoldBlack">
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/black</item>
@@ -14,6 +18,18 @@
 
     <style name="TextBoldBlack.Text12">
         <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextBlack.Text14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextBoldBlack.Text14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextBoldBlack.Text22">
+        <item name="android:textSize">22sp</item>
     </style>
 
     <style name="TextBoldBlack.Text24">

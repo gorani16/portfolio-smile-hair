@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="recommendedStyle"
+            type="com.gorani.projectsmilehair.model.RecommendedStyle" />
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:cardCornerRadius="12dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp">
+
+            <ImageView
+                android:id="@+id/iv_recommended_style"
+                android:layout_width="220dp"
+                android:layout_height="0dp"
+                android:contentDescription="@string/item_recommended_styles_iv_description"
+                android:scaleType="centerCrop"
+                android:src="@{recommendedStyle.recommendedStyleImageUrl}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@drawable/logo_always_smile_removebg_preview" />
+
+            <TextView
+                android:id="@+id/tv_recommended_style_name"
+                style="@style/TextBoldBlack.Text22"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:lineSpacingExtra="1dp"
+                android:text="@{recommendedStyle.label}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/iv_recommended_style"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="레이어드컷" />
+
+            <TextView
+                android:id="@+id/tv_recommended_style_description"
+                style="@style/TextBlack.Text14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lineSpacingMultiplier="1.1"
+                android:maxLines="7"
+                android:padding="4dp"
+                android:text="@{recommendedStyle.description}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/iv_recommended_style"
+                app:layout_constraintTop_toBottomOf="@+id/tv_recommended_style_name"
+                app:layout_constraintVertical_bias="0"
+                tools:text="원하는 디자인으로 볼륨감을 조절할 수 있어 누구에게나 맞는 스타일링을 할 수 있는 스타일입니다." />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>
