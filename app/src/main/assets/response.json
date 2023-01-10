@@ -31,139 +31,178 @@
       "thumbnail_image_url": "https://user-images.githubusercontent.com/73558353/210769102-447fa848-cac1-4396-a49e-ef3b0377bca5.jpg"
     }
   ],
-  "title": {
-    "text": "추천 스타일"
-  },
   "female_cut": {
-    "items": [
-      {
-        "hair_style_id": "female_cut_1",
-        "label": "레이어드 컷",
-        "description": "원하는 디자인으로 볼륨감을 조절할 수 있어 누구에게나 맞는 스타일링을 할 수 있는 스타일입니다.",
-        "recommended_style_image_url": "https://user-images.githubusercontent.com/73558353/211140101-57a7d3d7-2ac0-4d94-9364-c455321c02fe.jpg"
-      },
-      {
-        "hair_style_id": "female_cut_2",
-        "label": "시스루 뱅",
-        "description": "몇 가닥 없는 앞머리가 어려보이는 효과를 줄 수 있고 느낌있는 분위기를 연출 할 수 있는 트렌디한 스타일입니다.",
-        "recommended_style_image_url": "https://user-images.githubusercontent.com/73558353/211140102-3438eb73-fe37-4d20-9ef9-7b690440bd80.jpg"
-      },
-      {
-        "hair_style_id": "female_cut_3",
-        "label": "사이드 뱅",
-        "description": "앞머리 길이를 길게 내려 풍성하게 옆 볼륨을 주는 스타일입니다.",
-        "recommended_style_image_url": "https://user-images.githubusercontent.com/73558353/211140104-b901efb8-15db-4b6b-8d8d-87b3b894c3fc.jpg"
+    "title_section": {
+      "title": {
+        "text": "여성 커트 스타일"
       }
-    ]
+    },
+    "recommended_styles": {
+      "items": [
+        {
+          "hair_style_id": "female_cut_1",
+          "label": "레이어드 컷",
+          "description": "원하는 디자인으로 볼륨감을 조절할 수 있어 누구에게나 맞는 스타일링을 할 수 있는 스타일입니다.",
+          "hair_style_image_url": "https://user-images.githubusercontent.com/73558353/211140101-57a7d3d7-2ac0-4d94-9364-c455321c02fe.jpg"
+        },
+        {
+          "category_id": "female_cut_2",
+          "label": "시스루 뱅",
+          "description": "몇 가닥 없는 앞머리가 어려보이는 효과를 줄 수 있고 느낌있는 분위기를 연출 할 수 있는 트렌디한 스타일입니다.",
+          "hair_style_image_url": "https://user-images.githubusercontent.com/73558353/211140102-3438eb73-fe37-4d20-9ef9-7b690440bd80.jpg"
+        },
+        {
+          "category_id": "female_cut_3",
+          "label": "사이드 뱅",
+          "description": "앞머리 길이를 길게 내려 풍성하게 옆 볼륨을 주는 스타일입니다.",
+          "hair_style_image_url": "https://user-images.githubusercontent.com/73558353/211140104-b901efb8-15db-4b6b-8d8d-87b3b894c3fc.jpg"
+        }
+      ]
+    }
   },
   "female_perm": {
-    "items": [
-      {
-        "hair_style_id": "female_perm_1",
-        "label": "모즈펌",
-        "description": "목선을 가볍게 감싸는 볼륨감이 포인트이며 컬라인이 얼굴을 가볍게 감싸면서 내려오기 때문에 시크하고 세련된 분위기를 연출할 수 있는 스타일입니다.",
-        "recommended_style_image_url": "https://user-images.githubusercontent.com/73558353/211140099-f5f541d0-7d60-4bbb-b462-eb6310ea29c5.png"
-      },
-      {
-        "hair_style_id": "female_perm_2",
-        "label": "빌드펌",
-        "description": "자연스러운 C컬이 얼굴을 감싸고, 사이드로 굵은 S컬이 들어가 얼굴형을 보안해주고 볼륨감이 없는 얇은 모발에 추천하는 스타일입니다. ",
-        "recommended_style_image_url": "https://user-images.githubusercontent.com/73558353/211140097-2d334747-7cee-4459-aeff-c5dee01f7e2a.jpg"
-      },
-      {
-        "hair_style_id": "female_perm_3",
-        "label": "셋팅펌",
-        "description": "풍성한 볼륨감과 굵은 웨이브가 조화롭게 떨어져 얼굴라인을 더욱 갸름하게 하고 작아보이게 해주는 스타일입니다.",
-        "recommended_style_image_url": "https://user-images.githubusercontent.com/73558353/211140100-b2bfcc41-45c0-470e-87b3-d1beb2743f2e.jpg"
+    "title_section": {
+      "title": {
+        "text": "여성 펌 스타일"
       }
-    ]
+    },
+    "recommended_styles": {
+      "items": [
+        {
+          "category_id": "female_perm_1",
+          "label": "모즈펌",
+          "description": "목선을 가볍게 감싸는 볼륨감이 포인트이며 컬라인이 얼굴을 가볍게 감싸면서 내려오기 때문에 시크하고 세련된 분위기를 연출할 수 있는 스타일입니다.",
+          "hair_style_image_url": "https://user-images.githubusercontent.com/73558353/211140099-f5f541d0-7d60-4bbb-b462-eb6310ea29c5.png"
+        },
+        {
+          "category_id": "female_perm_2",
+          "label": "빌드펌",
+          "description": "자연스러운 C컬이 얼굴을 감싸고, 사이드로 굵은 S컬이 들어가 얼굴형을 보안해주고 볼륨감이 없는 얇은 모발에 추천하는 스타일입니다. ",
+          "hair_style_image_url": "https://user-images.githubusercontent.com/73558353/211140097-2d334747-7cee-4459-aeff-c5dee01f7e2a.jpg"
+        },
+        {
+          "category_id": "female_perm_3",
+          "label": "셋팅펌",
+          "description": "풍성한 볼륨감과 굵은 웨이브가 조화롭게 떨어져 얼굴라인을 더욱 갸름하게 하고 작아보이게 해주는 스타일입니다.",
+          "hair_style_image_url": "https://user-images.githubusercontent.com/73558353/211140100-b2bfcc41-45c0-470e-87b3-d1beb2743f2e.jpg"
+        }
+      ]
+    }
   },
   "female_dyeing": {
-    "items": [
-      {
-        "hair_style_id": "female_dyeing_1",
-        "label": "애쉬 그레이",
-        "description": "애쉬 계열에서 가장 인기가 좋은 컬러입니다.\n몽환적인 느낌이 나며, 밝은 이미지를 보여주고 싶다면 추천하는 컬러입니다.",
-        "recommended_style_image_url": "https://user-images.githubusercontent.com/73558353/211140113-9aa55321-f2c6-47b9-81c0-d381be99d2c0.jpg"
-      },
-      {
-        "hair_style_id": "female_dyeing_2",
-        "label": "애쉬 브라운",
-        "description": "가장 보편적이고 무난하면서 인기있는 컬러입니다.\n브라운 계열의 컬러로 화려하지않고 단정하고 차분한 분위기를 연출해주는 컬러입니다.",
-        "recommended_style_image_url": "https://user-images.githubusercontent.com/73558353/211140110-aa507a01-8998-4a85-8dcb-467c11ae7800.jpg"
-      },
-      {
-        "hair_style_id": "female_dyeing_3",
-        "label": "애쉬 블루 그레이",
-        "description": "애쉬 그레이 베이스에 파란 느낌이 나는 컬러입니다. ",
-        "recommended_style_image_url": "https://user-images.githubusercontent.com/73558353/211140108-9e03291e-f653-4487-8a0d-5987874d0093.jpg"
+    "title_section": {
+      "title": {
+        "text": "여성 추천 컬러"
       }
-    ]
+    },
+    "recommended_styles": {
+      "items": [
+        {
+          "category_id": "female_dyeing_1",
+          "label": "애쉬 그레이",
+          "description": "애쉬 계열에서 가장 인기가 좋은 컬러입니다.\n몽환적인 느낌이 나며, 밝은 이미지를 보여주고 싶다면 추천하는 컬러입니다.",
+          "hair_style_image_url": "https://user-images.githubusercontent.com/73558353/211140113-9aa55321-f2c6-47b9-81c0-d381be99d2c0.jpg"
+        },
+        {
+          "category_id": "female_dyeing_2",
+          "label": "애쉬 브라운",
+          "description": "가장 보편적이고 무난하면서 인기있는 컬러입니다.\n브라운 계열의 컬러로 화려하지않고 단정하고 차분한 분위기를 연출해주는 컬러입니다.",
+          "hair_style_image_url": "https://user-images.githubusercontent.com/73558353/211140110-aa507a01-8998-4a85-8dcb-467c11ae7800.jpg"
+        },
+        {
+          "category_id": "female_dyeing_3",
+          "label": "애쉬 블루 그레이",
+          "description": "애쉬 그레이 베이스에 파란 느낌이 나는 컬러입니다. ",
+          "hair_style_image_url": "https://user-images.githubusercontent.com/73558353/211140108-9e03291e-f653-4487-8a0d-5987874d0093.jpg"
+        }
+      ]
+    }
   },
   "male_cut": {
-    "items": [
-      {
-        "hair_style_id": "male_cut_1",
-        "label": "투블럭",
-        "description": "과하지 않은 소프트 투블럭은 무난하게 소화할 수 있어 가장 선호하는 스타일입니다.\n얼굴형에 따라 볼륨감을 준다면 얼굴형 커버도 가능합니다.",
-        "recommended_style_image_url": "https://user-images.githubusercontent.com/73558353/211139941-734f12aa-0beb-463f-a141-a8a2d868bbf0.jpg"
-      },
-      {
-        "hair_style_id": "male_cut_2",
-        "label": "포마드",
-        "description": "가르마나 길이에 따라 분위기가 달라져 부드러움부터 강한 남성미까지 다양하게 연출이 가능한 스타일입니다.",
-        "recommended_style_image_url": "https://user-images.githubusercontent.com/73558353/211139937-ee1f118d-a41c-45f7-8f9d-c82b37106fb8.jpg"
-      },
-      {
-        "hair_style_id": "male_cut_3",
-        "label": "스왓컷",
-        "description": "짧은 반삭 머리에 앞머리를 내린 스타일입니다. 남성적이고 강한 이미지를 만들어주며, 앞머리 길이에 따라 때로는 귀여운 분위기를 연출할 수 있습니다.",
-        "recommended_style_image_url": "https://user-images.githubusercontent.com/73558353/211139940-8e39e432-a6a2-4fc3-9e4b-b9a9f330e12c.jpg"
+    "title_section": {
+      "title": {
+        "text": "남성 커트 스타일"
       }
-    ]
+    },
+    "recommended_styles": {
+      "items": [
+        {
+          "hair_style_id": "male_cut_1",
+          "label": "투블럭",
+          "description": "과하지 않은 소프트 투블럭은 무난하게 소화할 수 있어 가장 선호하는 스타일입니다.\n얼굴형에 따라 볼륨감을 준다면 얼굴형 커버도 가능합니다.",
+          "hair_style_image_url": "https://user-images.githubusercontent.com/73558353/211139941-734f12aa-0beb-463f-a141-a8a2d868bbf0.jpg"
+        },
+        {
+          "hair_style_id": "male_cut_2",
+          "label": "포마드",
+          "description": "가르마나 길이에 따라 분위기가 달라져 부드러움부터 강한 남성미까지 다양하게 연출이 가능한 스타일입니다.",
+          "hair_style_image_url": "https://user-images.githubusercontent.com/73558353/211139937-ee1f118d-a41c-45f7-8f9d-c82b37106fb8.jpg"
+        },
+        {
+          "hair_style_id": "male_cut_3",
+          "label": "스왓컷",
+          "description": "짧은 반삭 머리에 앞머리를 내린 스타일입니다. 남성적이고 강한 이미지를 만들어주며, 앞머리 길이에 따라 때로는 귀여운 분위기를 연출할 수 있습니다.",
+          "hair_style_image_url": "https://user-images.githubusercontent.com/73558353/211139940-8e39e432-a6a2-4fc3-9e4b-b9a9f330e12c.jpg"
+        }
+      ]
+    }
   },
   "male_perm": {
-    "items": [
-      {
-        "hair_style_id": "male_perm_1",
-        "label": "시스루펌",
-        "description": "앞머리를 가볍게 정리한 시스루컷을 바탕으로 개인별로 맞는 펌을 추가한 스타일입니다.\n앞머리를 내리는 스타일이라 앞머리가 잘 어울리는 남자들에게 잘 맞는 스타일입니다.",
-        "recommended_style_image_url": "https://user-images.githubusercontent.com/73558353/211139951-55dd9751-fbf6-4a10-a44c-9c6b3a815c4b.jpg"
-      },
-      {
-        "hair_style_id": "male_perm_2",
-        "label": "가르마펌",
-        "description": "이마를 살짝 드러내는 펌으로 답답해 보이지 않으면서 파마의 스타일링까지 할 수 있어서 많은 남자들에게 선호 받는 스타일입니다.",
-        "recommended_style_image_url": "https://user-images.githubusercontent.com/73558353/211139953-2c432abd-8017-4053-9701-b31b6c0d2325.jpg"
-      },
-      {
-        "hair_style_id": "male_perm_3",
-        "label": "애즈펌",
-        "description": "볼륨이 적고 자연스럽고 부드러운 이미지를 연출하기 때문에 인기가 가장 많은 스타일입니다.",
-        "recommended_style_image_url": "https://user-images.githubusercontent.com/73558353/211139947-718f1905-9b27-4949-aaa8-080330d8b576.jpg"
+    "title_section": {
+      "title": {
+        "text": "남성 펌 스타일"
       }
-    ]
+    },
+    "recommended_styles": {
+      "items": [
+        {
+          "hair_style_id": "male_perm_1",
+          "label": "시스루펌",
+          "description": "앞머리를 가볍게 정리한 시스루컷을 바탕으로 개인별로 맞는 펌을 추가한 스타일입니다.\n앞머리를 내리는 스타일이라 앞머리가 잘 어울리는 남자들에게 잘 맞는 스타일입니다.",
+          "hair_style_image_url": "https://user-images.githubusercontent.com/73558353/211139951-55dd9751-fbf6-4a10-a44c-9c6b3a815c4b.jpg"
+        },
+        {
+          "hair_style_id": "male_perm_2",
+          "label": "가르마펌",
+          "description": "이마를 살짝 드러내는 펌으로 답답해 보이지 않으면서 파마의 스타일링까지 할 수 있어서 많은 남자들에게 선호 받는 스타일입니다.",
+          "hair_style_image_url": "https://user-images.githubusercontent.com/73558353/211139953-2c432abd-8017-4053-9701-b31b6c0d2325.jpg"
+        },
+        {
+          "hair_style_id": "male_perm_3",
+          "label": "애즈펌",
+          "description": "볼륨이 적고 자연스럽고 부드러운 이미지를 연출하기 때문에 인기가 가장 많은 스타일입니다.",
+          "hair_style_image_url": "https://user-images.githubusercontent.com/73558353/211139947-718f1905-9b27-4949-aaa8-080330d8b576.jpg"
+        }
+      ]
+    }
   },
   "male_dyeing": {
-    "items": [
-      {
-        "hair_style_id": "male_dyeing_1",
-        "label": "애쉬 그레이",
-        "description": "애쉬 계열에서 가장 인기가 좋은 컬러입니다.\n몽환적인 느낌이 나며, 밝은 이미지를 보여주고 싶다면 추천하는 컬러입니다.",
-        "recommended_style_image_url": "https://user-images.githubusercontent.com/73558353/211139946-0fe4cc92-39b2-4037-88bc-2525305e60db.jpg"
-      },
-      {
-        "hair_style_id": "male_dyeing_2",
-        "label": "애쉬 브라운",
-        "description": "가장 보편적이고 무난하면서 인기있는 컬러입니다.\n브라운 계열의 컬러로 화려하지않고 단정하고 차분한 분위기를 연출해주는 컬러입니다.",
-        "recommended_style_image_url": "https://user-images.githubusercontent.com/73558353/211139944-b677dc95-120c-4b8e-b894-f6f441af5f2e.jpg"
-      },
-      {
-        "hair_style_id": "male_dyeing_3",
-        "label": "애쉬 블루 그레이",
-        "description": "애쉬 그레이 베이스에 파란 느낌이 나는 컬러입니다. ",
-        "recommended_style_image_url": "https://user-images.githubusercontent.com/73558353/211139943-19d9ff95-8109-4b1d-a9f1-dde72af58829.jpg"
+    "title_section": {
+      "title": {
+        "text": "남성 추천 컬러"
       }
-    ]
+    },
+    "recommended_styles": {
+      "items": [
+        {
+          "hair_style_id": "male_dyeing_1",
+          "label": "애쉬 그레이",
+          "description": "애쉬 계열에서 가장 인기가 좋은 컬러입니다.\n몽환적인 느낌이 나며, 밝은 이미지를 보여주고 싶다면 추천하는 컬러입니다.",
+          "hair_style_image_url": "https://user-images.githubusercontent.com/73558353/211139946-0fe4cc92-39b2-4037-88bc-2525305e60db.jpg"
+        },
+        {
+          "hair_style_id": "male_dyeing_2",
+          "label": "애쉬 브라운",
+          "description": "가장 보편적이고 무난하면서 인기있는 컬러입니다.\n브라운 계열의 컬러로 화려하지않고 단정하고 차분한 분위기를 연출해주는 컬러입니다.",
+          "hair_style_image_url": "https://user-images.githubusercontent.com/73558353/211139944-b677dc95-120c-4b8e-b894-f6f441af5f2e.jpg"
+        },
+        {
+          "hair_style_id": "male_dyeing_3",
+          "label": "애쉬 블루 그레이",
+          "description": "애쉬 그레이 베이스에 파란 느낌이 나는 컬러입니다. ",
+          "hair_style_image_url": "https://user-images.githubusercontent.com/73558353/211139943-19d9ff95-8109-4b1d-a9f1-dde72af58829.jpg"
+        }
+      ]
+    }
   }
 }

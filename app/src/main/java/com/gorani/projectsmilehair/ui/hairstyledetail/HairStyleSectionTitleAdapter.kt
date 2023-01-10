@@ -1,4 +1,4 @@
-package com.gorani.projectsmilehair.ui.recommended_style
+package com.gorani.projectsmilehair.ui.hairstyledetail
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

@@ -31,7 +31,7 @@
         tools:layout="@layout/fragment_mypage"/>
     <fragment
         android:id="@+id/navigation_recommended_style"
-        android:name="com.gorani.projectsmilehair.ui.recommended_style.RecommendedStyleFragment"
+        android:name="com.gorani.projectsmilehair.ui.hairstyledetail.HairStyleDetailFragment"
         android:label="RecommendedStyleFragment"
-        tools:layout="@layout/fragment_recommended_style"/>
+        tools:layout="@layout/fragment_hair_style_detail"/>
 </navigation>

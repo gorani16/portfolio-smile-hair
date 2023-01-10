@@ -1,4 +1,4 @@
-package com.gorani.projectsmilehair.repository.style_category
+package com.gorani.projectsmilehair.repository.stylecategory
 
 import com.gorani.projectsmilehair.model.StyleCategory
 import com.gorani.projectsmilehair.network.ApiClient

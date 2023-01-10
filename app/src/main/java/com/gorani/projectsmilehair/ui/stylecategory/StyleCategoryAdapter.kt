@@ -1,4 +1,4 @@
-package com.gorani.projectsmilehair.ui.style_category
+package com.gorani.projectsmilehair.ui.stylecategory
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

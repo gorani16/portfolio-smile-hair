@@ -6,8 +6,8 @@
     <data>
 
         <variable
-            name="recommendedStyle"
-            type="com.gorani.projectsmilehair.model.RecommendedStyle" />
+            name="hairStyle"
+            type="com.gorani.projectsmilehair.model.HairStyle" />
 
     </data>
 
@@ -31,7 +31,7 @@
                 android:layout_height="0dp"
                 android:contentDescription="@string/item_recommended_styles_iv_description"
                 android:scaleType="centerCrop"
-                android:src="@{recommendedStyle.recommendedStyleImageUrl}"
+                imageUrl="@{hairStyle.hairStyleImageUrl}"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -44,7 +44,7 @@
                 android:layout_height="70dp"
                 android:gravity="center"
                 android:lineSpacingExtra="1dp"
-                android:text="@{recommendedStyle.label}"
+                android:text="@{hairStyle.label}"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/iv_recommended_style"
                 app:layout_constraintTop_toTopOf="parent"
@@ -59,7 +59,7 @@
                 android:lineSpacingMultiplier="1.1"
                 android:maxLines="7"
                 android:padding="4dp"
-                android:text="@{recommendedStyle.description}"
+                android:text="@{hairStyle.description}"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/iv_recommended_style"
