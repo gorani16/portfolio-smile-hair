@@ -52,7 +52,7 @@ class HomeFragment: Fragment() {
     }
 
     private fun openHairStyleDetail(categoryId: String, categoryLabel: String) {
-        findNavController().navigate(R.id.action_home_to_recommended_style, bundleOf(
+        findNavController().navigate(R.id.action_home_to_hair_style, bundleOf(
             KEY_STYLE_CATEGORY_ID to categoryId,
             KEY_STYLE_CATEGORY_LABEL to categoryLabel
         ))

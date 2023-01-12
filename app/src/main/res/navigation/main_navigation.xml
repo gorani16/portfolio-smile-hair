@@ -11,8 +11,8 @@
         android:label="HomeFragment"
         tools:layout="@layout/fragment_home">
         <action
-            android:id="@+id/action_home_to_recommended_style"
-            app:destination="@id/navigation_recommended_style" />
+            android:id="@+id/action_home_to_hair_style"
+            app:destination="@id/navigation_hair_style" />
     </fragment>
     <fragment
         android:id="@+id/navigation_reservation"
@@ -30,7 +30,7 @@
         android:label="MyPageFragment"
         tools:layout="@layout/fragment_mypage"/>
     <fragment
-        android:id="@+id/navigation_recommended_style"
+        android:id="@+id/navigation_hair_style"
         android:name="com.gorani.projectsmilehair.ui.hairstyledetail.HairStyleDetailFragment"
         android:label="RecommendedStyleFragment"
         tools:layout="@layout/fragment_hair_style_detail"/>

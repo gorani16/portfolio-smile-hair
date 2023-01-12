@@ -19,17 +19,11 @@ class HairStyleDetailViewModel(
     private val _recommendedStyles = MutableLiveData<RecommendedStyle>()
     val recommendedStyles: LiveData<RecommendedStyle> = _recommendedStyles
 
-    init {
-        loadHairStyleDetail()
-    }
-
-    private fun loadHairStyleDetail() {
+    fun loadHairStyleDetail(categoryId: String) {
         viewModelScope.launch {
-            val hairStyleDetail = hairStyleDetailRepository.getHairStyleDetail()
+            val hairStyleDetail = hairStyleDetailRepository.getHairStyleDetail(categoryId)
             _titleSection.value = hairStyleDetail.titleSection
             _recommendedStyles.value = hairStyleDetail.recommendedStyles
         }
     }
-
-
 }

@@ -1,6 +1,7 @@
 package com.gorani.projectsmilehair.ui.hairstyledetail
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -32,12 +33,16 @@ class HairStyleDetailFragment: Fragment() {
         binding.lifecycleOwner = viewLifecycleOwner
         setToolbar()
         setListAdapter()
+
         val categoryId = requireArguments().getString(KEY_STYLE_CATEGORY_ID)
+        viewModel.loadHairStyleDetail(categoryId.toString())
+
     }
 
     private fun setToolbar() {
         val categoryLabel = requireArguments().getString(KEY_STYLE_CATEGORY_LABEL)
         binding.toolbarRecommendedStyle.title = categoryLabel
+
     }
 
     private fun setListAdapter() {
