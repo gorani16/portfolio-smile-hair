@@ -1,15 +1,11 @@
 package com.gorani.projectsmilehair.ui.home
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.gorani.projectsmilehair.model.Banner
-import com.gorani.projectsmilehair.GlideApp
-import com.gorani.projectsmilehair.R
 import com.gorani.projectsmilehair.databinding.ItemHomeBannerBinding
 
 class HomeBannerAdapter: ListAdapter<Banner, HomeBannerAdapter.HomeBannerViewHolder>(
@@ -21,6 +17,7 @@ class HomeBannerAdapter: ListAdapter<Banner, HomeBannerAdapter.HomeBannerViewHol
         binding = ItemHomeBannerBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return HomeBannerViewHolder(binding)
     }
+
 
     override fun onBindViewHolder(holder: HomeBannerViewHolder, position: Int) {
         holder.bind(getItem(position))

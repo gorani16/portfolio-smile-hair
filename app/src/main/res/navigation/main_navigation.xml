@@ -14,24 +14,17 @@
             android:id="@+id/action_home_to_hair_style"
             app:destination="@id/navigation_hair_style" />
     </fragment>
-    <fragment
-        android:id="@+id/navigation_reservation"
-        android:name="com.gorani.projectsmilehair.ui.ReservationFragment"
-        android:label="ReservationFragment"
-        tools:layout="@layout/fragment_reservation"/>
-    <fragment
-        android:id="@+id/navigation_board"
-        android:name="com.gorani.projectsmilehair.ui.BoardFragment"
-        android:label="BoardFragment"
-        tools:layout="@layout/fragment_board"/>
-    <fragment
-        android:id="@+id/navigation_mypage"
-        android:name="com.gorani.projectsmilehair.ui.MyPageFragment"
-        android:label="MyPageFragment"
-        tools:layout="@layout/fragment_mypage"/>
+
     <fragment
         android:id="@+id/navigation_hair_style"
         android:name="com.gorani.projectsmilehair.ui.hairstyledetail.HairStyleDetailFragment"
         android:label="RecommendedStyleFragment"
-        tools:layout="@layout/fragment_hair_style_detail"/>
+        tools:layout="@layout/fragment_hair_style_detail" />
+
+    <fragment
+        android:id="@+id/navigation_contact"
+        android:name="com.gorani.projectsmilehair.ui.contact.ContactFragment"
+        android:label="ContactFragment"
+        tools:layout="@layout/fragment_contact" />
+
 </navigation>

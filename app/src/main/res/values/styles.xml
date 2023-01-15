@@ -2,7 +2,15 @@
 <resources>
 
     <!-- ImageView Style -->
-    <style name="Circle">
+    <style name="Circle_10">
+        <item name="cornerSize">10%</item>
+    </style>
+
+    <style name="Circle_20">
+        <item name="cornerSize">20%</item>
+    </style>
+
+    <style name="Circle_50">
         <item name="cornerSize">50%</item>
     </style>
 
