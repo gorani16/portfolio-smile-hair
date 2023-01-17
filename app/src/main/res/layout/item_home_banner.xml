@@ -6,7 +6,7 @@
 
         <variable
             name="banner"
-            type="com.gorani.projectsmilehair.model.Banner" />
+            type="com.gorani.smilehair.model.Banner" />
 
     </data>
 

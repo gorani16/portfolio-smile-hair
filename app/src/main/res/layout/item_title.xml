@@ -7,7 +7,7 @@
 
         <variable
             name="title"
-            type="com.gorani.projectsmilehair.model.Title" />
+            type="com.gorani.smilehair.model.Title" />
 
     </data>
 

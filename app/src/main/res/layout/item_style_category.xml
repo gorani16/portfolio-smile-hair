@@ -6,10 +6,10 @@
     <data>
         <variable
             name="viewModel"
-            type="com.gorani.projectsmilehair.ui.stylecategory.StyleCategoryViewModel" />
+            type="com.gorani.smilehair.ui.stylecategory.StyleCategoryViewModel" />
         <variable
             name="styleCategory"
-            type="com.gorani.projectsmilehair.model.StyleCategory" />
+            type="com.gorani.smilehair.model.StyleCategory" />
 
     </data>
 
