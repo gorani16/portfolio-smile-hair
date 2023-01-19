@@ -15,8 +15,8 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
         app:cardCornerRadius="12dp">
 
@@ -25,13 +25,14 @@
             android:layout_height="match_parent"
             android:padding="4dp">
 
-            <ImageView
+            <com.google.android.material.imageview.ShapeableImageView
+                app:shapeAppearanceOverlay="@style/Circle_10"
                 android:id="@+id/iv_recommended_style"
+                imageUrl="@{hairStyle.hairStyleImageUrl}"
                 android:layout_width="220dp"
                 android:layout_height="0dp"
                 android:contentDescription="@string/item_recommended_styles_iv_description"
                 android:scaleType="centerCrop"
-                imageUrl="@{hairStyle.hairStyleImageUrl}"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -42,6 +43,7 @@
                 style="@style/TextBoldBlack.Text20"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
+                android:fontFamily="@font/font_jua"
                 android:gravity="center"
                 android:lineSpacingExtra="1dp"
                 android:text="@{hairStyle.label}"
@@ -56,9 +58,11 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:ellipsize="end"
+                android:fontFamily="@font/font_jua"
                 android:lineSpacingMultiplier="1.1"
                 android:maxLines="7"
-                android:padding="4dp"
+                android:paddingStart="8dp"
+                android:paddingEnd="4dp"
                 android:text="@{hairStyle.description}"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

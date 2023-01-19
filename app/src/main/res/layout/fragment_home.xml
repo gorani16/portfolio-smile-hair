@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+
         <variable
             name="title"
             type="com.gorani.smilehair.model.Title" />
@@ -40,6 +41,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="end"
+                    android:fontFamily="@font/font_jua"
                     android:gravity="end"
                     android:maxLines="2"
                     android:paddingStart="16dp"
@@ -95,11 +97,13 @@
                     app:layout_constraintTop_toBottomOf="@id/viewpager_home_banner_indicator" />
 
                 <TextView
+                    android:layout_marginTop="5dp"
                     android:id="@+id/tv_home_style_tab_title"
                     style="@style/TextBoldBlack.Text24"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
+                    android:fontFamily="@font/font_jua"
                     android:text="스 타 일"
                     app:layout_constraintStart_toStartOf="@+id/view_divider"
                     app:layout_constraintTop_toBottomOf="@id/view_divider" />
@@ -110,6 +114,7 @@
                     android:layout_height="0dp"
                     android:paddingStart="12dp"
                     android:paddingEnd="12dp"
+                    android:layout_marginTop="5dp"
                     app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"

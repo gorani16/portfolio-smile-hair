@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Toolbar Style : 폰트 -->
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="fontFamily">@font/font_jua</item>
+    </style>
+
     <!-- ImageView Style -->
     <style name="Circle_10">
         <item name="cornerSize">10%</item>

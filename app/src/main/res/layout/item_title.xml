@@ -19,6 +19,7 @@
             style="@style/TextBoldBlack.Text24"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/font_jua"
             android:padding="16dp"
             android:text="@{title.text}"
             app:layout_constraintEnd_toEndOf="parent"
